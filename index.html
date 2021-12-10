@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon_16.ico">
+    <link rel="apple-touch-icon" href="img/favicon_180.png">
+
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/ fb# prefix属性: http://ogp.me/ns/ prefix属性#">
+    <meta property="og:url" content="https://manomano.co.jp/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="株式会社 mano mano" />
+    <meta property="og:description" content="株式会社 mano mano 事業内容 : 化粧品の企画、開発、販売" />
+    <meta property="og:site_name" content="mano mano company" />
+    <meta property="og:image" content="https://manomano.co.jp/img/web_mano_OGP.jpg" />
+        
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/granim.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>mano mano</title>
+
+</head>
+
+<body>
+    <canvas id="canvas-image-blending" style="opacity:1;"> </canvas>
+    <div class="body__inner" id="js-bodyinner"></div>
+
+    <div class="content__wrapper" id="js-wrapper">
+        <section class="content" id="js-main">
+            <h1><span>mano mano</span></h1>
+            <div class="content__key"><span class="content__key--mouse"><i class="content__key--dot" id="js-dot"></i></span></div>
+        </section>
+    </div>
+
+
+    <section class="brand" id="js-brand">  
+        <h2 class="brand__ttl">BRAND</h2>
+        <div class="brand__blc" id="js-brandInner">
+            <div class="brand__blc--inner">
+                <figure class="brand__blc--cran">CRAN BY MOLAK</figure>
+                <div class="brand__blc--txt">
+                    <span class="brand__blc--cranlogo"><span>CRAN BY MOLAK</span></span>
+                    <p class="brand__blc--exp">宮脇咲良初のプロデュースコスメブランド「CRAN BY MOLAK」。今っぽい色味を新しい質感で楽しむ、しっとりツヤめくジェリーティント「BLOOM JELLY TINT」全3カラーが発売中。CRANと一緒に今までとは違う新しい自分を。</p>
+                    <ul class="brand__link">
+                        <li><a href="https://cranbymolak.com/" target="_blank" class="brand__link--home">HOME</a></li>
+                        <li><a href="https://www.instagram.com/cranbymolak_official/" target="_blank" class="brand__link--insta">Instagram</a></li>
+                        <li><a href="https://twitter.com/cranbymolak" target="_blank" class="brand__link--twitter">twitter</a></li>
+                    </ul>   
+                </div>
+            </div>
+        </div>
+
+        <div class="brand__blc" id="js-brandInner02">
+            <div class="brand__blc--inner">
+                <figure class="brand__blc--perse">Perse</figure>
+                <div class="brand__blc--txt">
+                    <span class="brand__blc--perselogo"><span>Perse</span></span>
+                    <p class="brand__blc--exp">"おしゃれすぎる姉弟"で話題を集める、よしみちプロデュースのコスメブランド「perse」。第1弾商品は、次世代ファッションアイコンとしてトレンドに敏感な2人のこだわりが詰まった「リップ」を2022年3月にローンチ予定。</p>
+                    <ul class="brand__link">
+                        <li><a href="https://perse-official.com/" target="_blank" class="brand__link--home">HOME</a></li>
+                        <li><a href="https://www.instagram.com/perseofficial/?utm_medium=copy_link" target="_blank" class="brand__link--insta">Instagram</a></li>
+                        <li><a href="https://www.youtube.com/channel/UCiJkV6aSJpX9xEJUu00tVlw" target="_blank" class="brand__link--youtube">youtube</a></li>
+                        <li><a href="https://www.bilibili.com/video/BV1by4y1378U" target="_blank" class="brand__link--bibbi">bibbi</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <div class="footer" id="footer">
+        <div class="footer__inner">
+            <p class="footer__logo"><span>mano mano company</span></p>
+            <div class="footer__details--wrapper">
+            <div class="footer__details--inner">
+                
+                <dl class="footer__details">
+                    <dt>
+                        <span>会</span>
+                        <span>社</span>
+                        <span>名</span>
+                        <span>:</span>
+
+                    </dt>
+                    <dd>株式会社 mano mano</dd>
+                </dl>
+                <dl class="footer__details">
+                    <dt>
+                        <span>代</span>
+                        <span>表</span>
+                        <span>者</span>
+                        <span>:</span>
+
+                    </dt>
+                    <dd>野村 諭史</dd>
+                </dl>
+                <dl class="footer__details withmap">
+                    <dt>
+                        <span>本</span>
+                        <span>社</span>
+                        <span>:</span>
+
+                    </dt>
+                    <dd>東京都渋谷区神宮前5-46-1 <br><a href="https://goo.gl/maps/2Z2Cjq9XhCQbXMVz5" target="_blank" class="footer__details--google">Google Map</a></dd>
+                </dl>
+                <dl class="footer__details mail">
+                    <dt>
+                        <span>M</span>
+                        <span>A</span>
+                        <span>I</span>
+                        <span>L</span>
+                        <span>:</span>
+                    </dt>
+                    <dd class="link"><a href="mailto:info@mano-mano.co.jp">info@mano-mano.co.jp</a></dd>
+                </dl>
+                <dl class="footer__details">
+                    <dt>
+                        <span>事</span>
+                        <span>業</span>
+                        <span>内</span>
+                        <span>容</span>
+                        <span>:</span>
+
+                    </dt>
+                    <dd>化粧品の企画、開発、販売</dd>
+                </dl>
+            </div>
+        </div>
+        </div>
+        <p class="copyright">&copy; mano mano inc.</p>
+    </div>
+
+
+    <script src="js/common.js"></script>
+</body>
+
+</html>

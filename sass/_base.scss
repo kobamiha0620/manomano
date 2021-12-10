@@ -1,0 +1,47 @@
+$BP: 768px;
+$BP_PC: 1080px;
+
+
+//COLOR
+$BG: #f4f3ea; //背景色
+$CR: #9b725e; //文字色
+$BC: #ede1d5; //中間色
+$DC: #dbdad2; //disable色
+$PK: #ede1d5;
+
+//PC幅
+$PC_W: 940px;
+
+html { scroll-behavior: smooth;}
+
+html,body{
+font-size:62.5%;
+font-family: "Arial", "メイリオ";
+
+}
+// html, body {
+//     background: hsla(0,0%,5%,1);
+//   }
+
+
+/* SP 画面サイズが768px以下 */
+@media screen and (max-width: $BP) {
+
+  
+    .pc{
+        display: none;
+    }
+    .sp{
+        display: block;
+    }
+}
+
+/* PC 画面サイズが769px以上 */
+@media screen and (min-width: $BP+1) {
+    .pc{
+        display: block;
+    }
+    .sp{
+        display: none;
+    }
+}
