@@ -201,8 +201,8 @@
                 background-size: 100% auto;
             }
         }
-        &--perse{
-            background: url('../img/perse.png') no-repeat;
+        &--perse2{
+            background: url('../img/perse2.png') no-repeat;
             background-size: 100% auto;
             width: 512px;
             text-indent: -9999px;
@@ -217,6 +217,25 @@
                 margin: 60px auto 48px;
                 width: 147px;
                 height: 43px;
+                background-size: 100% auto;
+            }
+        }
+        &--upt{
+            background: url('../img/upt2.png') no-repeat;
+            background-size: 100% auto;
+            width: 512px;
+            text-indent: -9999px;
+            white-space: nowrap;
+        }
+        &--uptlogo{
+            span{
+                background: url('../img/upt_logo.svg') no-repeat;
+                text-indent: -9999px;
+                white-space: nowrap;
+                display: block;
+                margin: 60px auto 22px;
+                width: 144px;
+                height: 78px;
                 background-size: 100% auto;
             }
         }
@@ -470,7 +489,7 @@
                     margin: 0;
                 }
             }
-            &--perse{
+            &--perse2{
                 width: 100%;
                 height: 100%;
                 padding-top: 61.7%;
@@ -486,6 +505,28 @@
                 span{
                     width: 100%;
                     padding-top: 30%;
+                    font-size: 0;
+                    line-height: 0;
+                    height: auto;
+                    margin: 0;
+                }
+            }
+            &--upt{
+                width: 100%;
+                height: 100%;
+                padding-top: 61.7%;
+                font-size: 0;
+                line-height: 0;
+            }
+            &--uptlogo{
+                margin: 0 auto 7.7%;
+                width: 36%;
+                height: auto;
+                display: block;
+                padding-top: 8.4%;
+                span{
+                    width: 100%;
+                    padding-top: 54.5%;
                     font-size: 0;
                     line-height: 0;
                     height: auto;
